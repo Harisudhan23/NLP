@@ -8,7 +8,7 @@ text = "Hi!, This is Sudhan here."
 doc = nlp(text)
 
 #tokenization
-tokens = [token.text for token in doc ]
+tokens = [token.text for token in doc]
 print("tokens:",tokens)
 
 #Lemmentization
