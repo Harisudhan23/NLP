@@ -31,4 +31,8 @@ tfidf_vectorizer = TfidfVectorizer()
 tfidf_matrix = tfidf_vectorizer.fit_transform(preprocessed_docs)
 
 print("Vocabulary:", tfidf_vectorizer.get_feature_names_out())
+
 print("TF-IDF Matrix:\n", tfidf_matrix.toarray())
+
+print("TF-IDF Matrix:\n", tfidf_matrix.toarray())
+
